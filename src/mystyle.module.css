@@ -1,0 +1,30 @@
+
+.horizontalcomponent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.quantity {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.price {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: right;
+  color: green;
+}
+
+strike {
+  color: red;
+}
+
+h1 {
+  text-align: center;
+  color: green;
+}
